@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    background-image: url(btc-bg.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    font-family: 'Koulen', cursive;
+    font-family: 'Source Code Pro', monospace;
+}
+.container{
+    width: 100%;
+    /* margin: 0 20%; */
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    margin: 0 20%;
+}
+.nav-bar .logo{
+    width: 10%;
+    padding: 20px;
+}
+.nav-bar .logo a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    
+}
+/* .nav-bar .logo a:hover{
+
+    } */
+.nav-bar .nav-menu{
+    width: 90%;
+}
+.nav-bar .nav-menu ul{
+    display: flex ;
+}
+.nav-bar .nav-menu ul li{
+    list-style-type: none;
+    padding: 20px;
+
+}
+.nav-bar .nav-menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px;
+}
+.nav-bar .nav-menu ul li a:hover{
+    color: #fff8f7;
+    text-shadow: 2px 2px red;
+    transition: all 0.7s;
+    
+}
+.nav-bar .nav-menu ul li a.active{
+    color: #fff8f7;
+    text-shadow: 2px 2px red;
+}
+.nav-bar .nav-menu ul li a i{
+    visibility:hidden;
+    font-size: 25px;
+    color: white;
+}
+/* .nav-bar .nav-menu ul li a i:hover{
+    color: black;
+    background: rgb(2,0,36);
+    background: linear-gradient(162deg, rgba(2,0,36,1) 0%, rgba(215,215,252,1) 48%, rgba(0,212,255,1) 100%);
+
+} */
+.welcome{
+    margin-top: 40px;
+    text-align: center;
+}
+.welcome h2{
+    font-size: 40px;
+}
+.welcome h3{
+    font-size: 30px;
+}
+.welcome h2,.welcome h3{
+    color: white;
+}
+.par{
+    margin-top: 40px;
+}
+.par p{
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+}
