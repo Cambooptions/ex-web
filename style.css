@@ -96,3 +96,63 @@ body{
     text-align: center;
     color: white;
 }
+@media (max-width:1280px){
+
+}
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 600px){
+
+}
+@media (max-width:396px){
+    body{
+        width: 100vw;
+    }
+    .container{
+        background-size: contain;
+        object-fit: none;
+    }
+    .nav-bar{
+        width: 100%;
+        display: flex;
+        margin: 0 3%;
+    
+    }
+    .nav-bar .nav-menu{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        top: -200%;
+    }
+    .nav-bar .nav-menu ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .nav-bar .logo{
+        padding: 5px;
+    }
+    .nav-bar .logo a{
+        padding: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        
+    }
+    .nav-bar .nav-menu ul li{
+        padding: 5px;
+    
+    }
+    .nav-bar .nav-menu ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        padding: 5px;
+    }
+}
