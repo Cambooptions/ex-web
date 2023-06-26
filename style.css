@@ -4,21 +4,24 @@
 }
 body{
     background-color: white;
-    background-image: url(btc-bg.jpg);
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    background-size: cover;
+
     font-family: 'Koulen', cursive;
     font-family: 'Source Code Pro', monospace;
 }
 .container{
     width: 100%;
+    background-image: url(btc-bg.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    height: 100vh;
     /* margin: 0 20%; */
 }
 .nav-bar{
     width: 100%;
     display: flex;
     margin: 0 20%;
+
 }
 .nav-bar .logo{
     width: 10%;
